@@ -1,0 +1,63 @@
+.page-hd{
+  padding: 10rpx 40rpx 20rpx 40rpx;
+  text-align: left;
+}
+.page-hd-desc{
+  margin-top: 0;
+  color: #000;
+  font-size: 30rpx;
+}
+
+.scroll-view{
+  white-space: nowrap;
+  height: 100rpx;
+  background: #fff;
+  border-bottom: 1rpx solid #ececec;
+  border-top: 1rpx solid #ececec;
+}
+
+.scroll-view-item-body {
+  padding: 0 20rpx 0 140rpx;
+  line-height: 100rpx;
+}
+
+.scroll-view-item-control{
+  position: absolute;
+  top: 0;
+  font-size: 26rpx;
+  width: 120rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  background: #fff;
+  color: #4e4e4e;
+  border-bottom: 1rpx solid #ececec;
+  border-top: 1rpx solid #ececec;
+}
+
+.kind-list-item {
+  margin: 20rpx 0;
+  background-color: #FFFFFF;
+  border-radius: 4rpx;
+  overflow: hidden;
+}
+
+
+.kind-list-item-hd {
+  padding: 30rpx;
+  display: flex;
+  align-items: center;
+  transition: opacity .3s;
+}
+
+.kind-list-item-hd-show {
+  opacity: .2;
+}
+
+.kind-list-item-bd {
+  height: 0;
+  overflow: hidden;
+}
+.kind-list-item-bd-show {
+  height: auto;
+}
