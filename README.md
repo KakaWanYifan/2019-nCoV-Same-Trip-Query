@@ -8,6 +8,7 @@
 https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html
 
 功能就像这样
+
 ![](./img/1.png)
 ![](./img/2.png)
 
