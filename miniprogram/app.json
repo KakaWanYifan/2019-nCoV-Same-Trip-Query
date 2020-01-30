@@ -1,7 +1,6 @@
 {
   "pages": [
-    "pages/select/select",
-    "pages/all/all"
+    "pages/select/select"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -9,26 +8,6 @@
     "navigationBarBackgroundColor": "#F6F6F6",
     "navigationBarTitleText": "新冠患者相同行程查询",
     "navigationBarTextStyle": "black"
-  },
-  "tabBar": {
-    "color": "#7A7E83",
-    "selectedColor": "#1296db",
-    "borderStyle": "black",
-    "backgroundColor": "#ffffff",
-    "list": [
-      {
-        "pagePath": "pages/select/select",
-        "iconPath": "images/select.png",
-        "selectedIconPath": "images/select_s.png",
-        "text": "查询"
-      },
-      {
-        "pagePath": "pages/all/all",
-        "iconPath": "images/all.png",
-        "selectedIconPath": "images/all_s.png",
-        "text": "所有"
-      }
-    ]
   },
   "sitemapLocation": "sitemap.json",
   "style": "v2"

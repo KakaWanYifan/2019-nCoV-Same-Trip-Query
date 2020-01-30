@@ -31,6 +31,6 @@
   <view class="null-desc">未查询到相关行程</view>
 </view>
 <scroll-view class="scroll-view" scroll-x="true" wx:for="{{result}}" wx:key="id">
-  <view class="scroll-view-item-body">{{item.t_type}} | {{item.t_no}} ｜ 车厢：{{item.t_no_sub}} ｜ 来源{{item.who}}</view>
+  <view class="scroll-view-item-body">{{item.t_date}} | {{item.t_type}} | {{item.t_no}} ｜ 车厢:{{item.t_no_sub}} ｜ 来源:{{item.who}}</view>
   <view class="scroll-view-item-control" bindtap="getRaw" data-index="{{item.source}}">获取原文</view>
 </scroll-view>
