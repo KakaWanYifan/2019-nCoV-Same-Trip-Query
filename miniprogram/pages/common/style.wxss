@@ -61,3 +61,14 @@
 .kind-list-item-bd-show {
   height: auto;
 }
+
+.null{
+  padding: 20rpx 50rpx 0;
+  text-align: center;
+}
+
+.null-desc{
+  padding-top: 10rpx;
+  color: #000;
+  font-size: 32rpx;
+}
