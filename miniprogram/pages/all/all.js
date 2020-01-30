@@ -6,7 +6,7 @@ Page({
       return val_2 - val_1;
     }
   },
-  onReady: function () {
+  onShow: function () {
     var now = new Date()
     var date = new Date()
     var dateVal = ''
