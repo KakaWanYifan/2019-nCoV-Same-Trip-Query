@@ -7,11 +7,6 @@
 
 https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html
 
-功能就像这样
-
-![](./img/1.png)
-![](./img/2.png)
-
 已经申请腾讯加急审核，相信大家很快就可以看到
 
 ![](./img/png.png)
