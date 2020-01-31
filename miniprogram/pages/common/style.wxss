@@ -13,7 +13,6 @@
   height: 100rpx;
   background: #fff;
   border-bottom: 1rpx solid #ececec;
-  border-top: 1rpx solid #ececec;
 }
 
 .scroll-view-item-body {
@@ -32,7 +31,6 @@
   background: #fff;
   color: #4e4e4e;
   border-bottom: 1rpx solid #ececec;
-  border-top: 1rpx solid #ececec;
 }
 
 .kind-list-item {
