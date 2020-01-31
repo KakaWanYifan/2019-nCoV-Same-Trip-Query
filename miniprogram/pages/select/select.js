@@ -12,7 +12,7 @@ Page({
   },
   onShow: function (){
     wx.showLoading({
-      title: '首次加载较慢'
+      title: 'Loading'
     });
     this.setData({
       result: []
