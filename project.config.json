@@ -9,12 +9,11 @@
 		"newFeature": true,
 		"enhance": true
 	},
-	"appid": "wx2d9a72d1410a6ea7",
-	"projectname": "nCoV",
-	"libVersion": "2.10.1",
+	"appid": "wx8898a07816bc5f05",
+	"projectname": "nCoV2nd",
+	"libVersion": "2.8.1",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
-	"compileType": "miniprogram",
 	"condition": {
 		"search": {
 			"current": -1,

@@ -10,7 +10,7 @@ Page({
     noVal: '',
     dateVal: ''
   },
-  onShow: function (){
+  onLoad: function (){
     wx.showLoading({
       title: 'Loading'
     });
