@@ -11,9 +11,6 @@ Page({
     dateVal: ''
   },
   onLoad: function (){
-    wx.showLoading({
-      title: 'Loading'
-    });
     this.setData({
       result: []
     })
@@ -39,17 +36,11 @@ Page({
           this.setData({
             result: res.result.data
           })
-          setTimeout(function () {
-            wx.hideLoading();
-          }, 5000)
         },
         fail: err => {
           this.setData({
             result: null
           })
-          setTimeout(function () {
-            wx.hideLoading();
-          }, 5000)
         }
       })
     }
@@ -64,17 +55,11 @@ Page({
           this.setData({
             result: res.result.data
           })
-          setTimeout(function () {
-            wx.hideLoading();
-          }, 5000)
         },
         fail: err => {
           this.setData({
             result: null
           })
-          setTimeout(function () {
-            wx.hideLoading();
-          }, 5000)
         }
       })
     }
@@ -89,22 +74,19 @@ Page({
           this.setData({
             result: res.result.data
           })
-          setTimeout(function () {
-            wx.hideLoading();
-          }, 5000)
         },
         fail: err => {
           this.setData({
             result: null
           })
-          setTimeout(function () {
-            wx.hideLoading();
-          }, 5000)
         }
       })
     }
     // 4 如果日期是 ''  车次是 ''
     if (this.data.dateVal == '' && this.data.noVal == '') {
+      wx.showLoading({
+        title: '数据多 加载慢'
+      });
       wx.cloud.callFunction({
         name: 'getAll',
         success: res => {
@@ -113,15 +95,13 @@ Page({
           })
           setTimeout(function () {
             wx.hideLoading();
-          }, 5000)
+          }, 20000)
         },
         fail: err => {
           this.setData({
             result: null
           })
-          setTimeout(function () {
-            wx.hideLoading();
-          }, 5000)
+          wx.hideLoading();
         }
       })
     }
