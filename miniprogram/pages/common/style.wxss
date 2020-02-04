@@ -8,6 +8,21 @@
   font-size: 30rpx;
 }
 
+.page-hd-line{
+  margin: 0 auto;
+  width: 200rpx;
+  height: 2rpx;
+  background-color: #D8D8D8;
+  margin-bottom: 10rpx
+}
+
+.page-hd-title{
+  padding: 0 40rpx 10rpx 40rpx;
+  font-size: 30rpx;
+  color: #BEBEBE;
+  text-align: center;
+}
+
 .scroll-view{
   white-space: nowrap;
   height: 100rpx;

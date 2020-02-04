@@ -141,6 +141,16 @@ Page({
     })
   },
   onLoad:function(){
+    var db = wx.cloud.database()
+    db.collection('update').where({
+      _id: 'update'
+    }).get({
+      success: res => {
+        this.setData({
+          update: '数据更新时间：' + res.data[0].update
+        })
+      }
+    })
     this.setData({
       result:[]
     })
