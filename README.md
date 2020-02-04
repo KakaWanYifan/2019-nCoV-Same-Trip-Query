@@ -5,4 +5,4 @@
 
 https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html
 
-![](./img/png.png)
+![](./img/png.png 800*450)
