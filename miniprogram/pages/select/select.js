@@ -100,7 +100,7 @@ Page({
               title: '大约还需' + timesRun + '秒',
             })
             timesRun = timesRun - 5
-            if (timesRun <= 0) {
+            if (timesRun < 0) {
               wx.hideLoading()
               clearInterval(interval);
             }
