@@ -93,18 +93,18 @@ Page({
             count: '当前页面共' + res.result.data.length + '条',
             result: res.result.data
           })
-          var timesRun = Math.round(res.result.data.length / 100) * 5;
+          var timesRun = Math.round(res.result.data.length / 200) * 10;
           var interval = setInterval(function () {
             wx.hideLoading()
             wx.showLoading({
               title: '大约还需' + timesRun + '秒',
             })
-            timesRun = timesRun - 5
+            timesRun = timesRun - 10
             if (timesRun < 0) {
               wx.hideLoading()
               clearInterval(interval);
             }
-          }, 5000);
+          }, 10000);
         },
         fail: err => {
           this.setData({
