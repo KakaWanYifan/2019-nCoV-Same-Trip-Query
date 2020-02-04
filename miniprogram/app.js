@@ -11,6 +11,10 @@ App({
       })
     }
 
+    wx.setKeepScreenOn({
+      keepScreenOn: true,
+    })
+
     this.globalData = {}
   }
 })
