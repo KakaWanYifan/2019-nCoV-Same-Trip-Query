@@ -306,7 +306,207 @@ Page({
       result_296: null,
       result_297: null,
       result_298: null,
-      result_299: null
+      result_299: null,
+      result_300: null,
+      result_301: null,
+      result_302: null,
+      result_303: null,
+      result_304: null,
+      result_305: null,
+      result_306: null,
+      result_307: null,
+      result_308: null,
+      result_309: null,
+      result_310: null,
+      result_311: null,
+      result_312: null,
+      result_313: null,
+      result_314: null,
+      result_315: null,
+      result_316: null,
+      result_317: null,
+      result_318: null,
+      result_319: null,
+      result_320: null,
+      result_321: null,
+      result_322: null,
+      result_323: null,
+      result_324: null,
+      result_325: null,
+      result_326: null,
+      result_327: null,
+      result_328: null,
+      result_329: null,
+      result_330: null,
+      result_331: null,
+      result_332: null,
+      result_333: null,
+      result_334: null,
+      result_335: null,
+      result_336: null,
+      result_337: null,
+      result_338: null,
+      result_339: null,
+      result_340: null,
+      result_341: null,
+      result_342: null,
+      result_343: null,
+      result_344: null,
+      result_345: null,
+      result_346: null,
+      result_347: null,
+      result_348: null,
+      result_349: null,
+      result_350: null,
+      result_351: null,
+      result_352: null,
+      result_353: null,
+      result_354: null,
+      result_355: null,
+      result_356: null,
+      result_357: null,
+      result_358: null,
+      result_359: null,
+      result_360: null,
+      result_361: null,
+      result_362: null,
+      result_363: null,
+      result_364: null,
+      result_365: null,
+      result_366: null,
+      result_367: null,
+      result_368: null,
+      result_369: null,
+      result_370: null,
+      result_371: null,
+      result_372: null,
+      result_373: null,
+      result_374: null,
+      result_375: null,
+      result_376: null,
+      result_377: null,
+      result_378: null,
+      result_379: null,
+      result_380: null,
+      result_381: null,
+      result_382: null,
+      result_383: null,
+      result_384: null,
+      result_385: null,
+      result_386: null,
+      result_387: null,
+      result_388: null,
+      result_389: null,
+      result_390: null,
+      result_391: null,
+      result_392: null,
+      result_393: null,
+      result_394: null,
+      result_395: null,
+      result_396: null,
+      result_397: null,
+      result_398: null,
+      result_399: null,
+      result_400: null,
+      result_401: null,
+      result_402: null,
+      result_403: null,
+      result_404: null,
+      result_405: null,
+      result_406: null,
+      result_407: null,
+      result_408: null,
+      result_409: null,
+      result_410: null,
+      result_411: null,
+      result_412: null,
+      result_413: null,
+      result_414: null,
+      result_415: null,
+      result_416: null,
+      result_417: null,
+      result_418: null,
+      result_419: null,
+      result_420: null,
+      result_421: null,
+      result_422: null,
+      result_423: null,
+      result_424: null,
+      result_425: null,
+      result_426: null,
+      result_427: null,
+      result_428: null,
+      result_429: null,
+      result_430: null,
+      result_431: null,
+      result_432: null,
+      result_433: null,
+      result_434: null,
+      result_435: null,
+      result_436: null,
+      result_437: null,
+      result_438: null,
+      result_439: null,
+      result_440: null,
+      result_441: null,
+      result_442: null,
+      result_443: null,
+      result_444: null,
+      result_445: null,
+      result_446: null,
+      result_447: null,
+      result_448: null,
+      result_449: null,
+      result_450: null,
+      result_451: null,
+      result_452: null,
+      result_453: null,
+      result_454: null,
+      result_455: null,
+      result_456: null,
+      result_457: null,
+      result_458: null,
+      result_459: null,
+      result_460: null,
+      result_461: null,
+      result_462: null,
+      result_463: null,
+      result_464: null,
+      result_465: null,
+      result_466: null,
+      result_467: null,
+      result_468: null,
+      result_469: null,
+      result_470: null,
+      result_471: null,
+      result_472: null,
+      result_473: null,
+      result_474: null,
+      result_475: null,
+      result_476: null,
+      result_477: null,
+      result_478: null,
+      result_479: null,
+      result_480: null,
+      result_481: null,
+      result_482: null,
+      result_483: null,
+      result_484: null,
+      result_485: null,
+      result_486: null,
+      result_487: null,
+      result_488: null,
+      result_489: null,
+      result_490: null,
+      result_491: null,
+      result_492: null,
+      result_493: null,
+      result_494: null,
+      result_495: null,
+      result_496: null,
+      result_497: null,
+      result_498: null,
+      result_499: null
     })
   },
   setResult:function(res){
@@ -2425,6 +2625,1406 @@ Page({
           })
         }
         break;
+      case 300:
+        {
+          this.setData({
+            result_300: res
+          })
+        }
+        break;
+      case 301:
+        {
+          this.setData({
+            result_301: res
+          })
+        }
+        break;
+      case 302:
+        {
+          this.setData({
+            result_302: res
+          })
+        }
+        break;
+      case 303:
+        {
+          this.setData({
+            result_303: res
+          })
+        }
+        break;
+      case 304:
+        {
+          this.setData({
+            result_304: res
+          })
+        }
+        break;
+      case 305:
+        {
+          this.setData({
+            result_305: res
+          })
+        }
+        break;
+      case 306:
+        {
+          this.setData({
+            result_306: res
+          })
+        }
+        break;
+      case 307:
+        {
+          this.setData({
+            result_307: res
+          })
+        }
+        break;
+      case 308:
+        {
+          this.setData({
+            result_308: res
+          })
+        }
+        break;
+      case 309:
+        {
+          this.setData({
+            result_309: res
+          })
+        }
+        break;
+      case 310:
+        {
+          this.setData({
+            result_310: res
+          })
+        }
+        break;
+      case 311:
+        {
+          this.setData({
+            result_311: res
+          })
+        }
+        break;
+      case 312:
+        {
+          this.setData({
+            result_312: res
+          })
+        }
+        break;
+      case 313:
+        {
+          this.setData({
+            result_313: res
+          })
+        }
+        break;
+      case 314:
+        {
+          this.setData({
+            result_314: res
+          })
+        }
+        break;
+      case 315:
+        {
+          this.setData({
+            result_315: res
+          })
+        }
+        break;
+      case 316:
+        {
+          this.setData({
+            result_316: res
+          })
+        }
+        break;
+      case 317:
+        {
+          this.setData({
+            result_317: res
+          })
+        }
+        break;
+      case 318:
+        {
+          this.setData({
+            result_318: res
+          })
+        }
+        break;
+      case 319:
+        {
+          this.setData({
+            result_319: res
+          })
+        }
+        break;
+      case 320:
+        {
+          this.setData({
+            result_320: res
+          })
+        }
+        break;
+      case 321:
+        {
+          this.setData({
+            result_321: res
+          })
+        }
+        break;
+      case 322:
+        {
+          this.setData({
+            result_322: res
+          })
+        }
+        break;
+      case 323:
+        {
+          this.setData({
+            result_323: res
+          })
+        }
+        break;
+      case 324:
+        {
+          this.setData({
+            result_324: res
+          })
+        }
+        break;
+      case 325:
+        {
+          this.setData({
+            result_325: res
+          })
+        }
+        break;
+      case 326:
+        {
+          this.setData({
+            result_326: res
+          })
+        }
+        break;
+      case 327:
+        {
+          this.setData({
+            result_327: res
+          })
+        }
+        break;
+      case 328:
+        {
+          this.setData({
+            result_328: res
+          })
+        }
+        break;
+      case 329:
+        {
+          this.setData({
+            result_329: res
+          })
+        }
+        break;
+      case 330:
+        {
+          this.setData({
+            result_330: res
+          })
+        }
+        break;
+      case 331:
+        {
+          this.setData({
+            result_331: res
+          })
+        }
+        break;
+      case 332:
+        {
+          this.setData({
+            result_332: res
+          })
+        }
+        break;
+      case 333:
+        {
+          this.setData({
+            result_333: res
+          })
+        }
+        break;
+      case 334:
+        {
+          this.setData({
+            result_334: res
+          })
+        }
+        break;
+      case 335:
+        {
+          this.setData({
+            result_335: res
+          })
+        }
+        break;
+      case 336:
+        {
+          this.setData({
+            result_336: res
+          })
+        }
+        break;
+      case 337:
+        {
+          this.setData({
+            result_337: res
+          })
+        }
+        break;
+      case 338:
+        {
+          this.setData({
+            result_338: res
+          })
+        }
+        break;
+      case 339:
+        {
+          this.setData({
+            result_339: res
+          })
+        }
+        break;
+      case 340:
+        {
+          this.setData({
+            result_340: res
+          })
+        }
+        break;
+      case 341:
+        {
+          this.setData({
+            result_341: res
+          })
+        }
+        break;
+      case 342:
+        {
+          this.setData({
+            result_342: res
+          })
+        }
+        break;
+      case 343:
+        {
+          this.setData({
+            result_343: res
+          })
+        }
+        break;
+      case 344:
+        {
+          this.setData({
+            result_344: res
+          })
+        }
+        break;
+      case 345:
+        {
+          this.setData({
+            result_345: res
+          })
+        }
+        break;
+      case 346:
+        {
+          this.setData({
+            result_346: res
+          })
+        }
+        break;
+      case 347:
+        {
+          this.setData({
+            result_347: res
+          })
+        }
+        break;
+      case 348:
+        {
+          this.setData({
+            result_348: res
+          })
+        }
+        break;
+      case 349:
+        {
+          this.setData({
+            result_349: res
+          })
+        }
+        break;
+      case 350:
+        {
+          this.setData({
+            result_350: res
+          })
+        }
+        break;
+      case 351:
+        {
+          this.setData({
+            result_351: res
+          })
+        }
+        break;
+      case 352:
+        {
+          this.setData({
+            result_352: res
+          })
+        }
+        break;
+      case 353:
+        {
+          this.setData({
+            result_353: res
+          })
+        }
+        break;
+      case 354:
+        {
+          this.setData({
+            result_354: res
+          })
+        }
+        break;
+      case 355:
+        {
+          this.setData({
+            result_355: res
+          })
+        }
+        break;
+      case 356:
+        {
+          this.setData({
+            result_356: res
+          })
+        }
+        break;
+      case 357:
+        {
+          this.setData({
+            result_357: res
+          })
+        }
+        break;
+      case 358:
+        {
+          this.setData({
+            result_358: res
+          })
+        }
+        break;
+      case 359:
+        {
+          this.setData({
+            result_359: res
+          })
+        }
+        break;
+      case 360:
+        {
+          this.setData({
+            result_360: res
+          })
+        }
+        break;
+      case 361:
+        {
+          this.setData({
+            result_361: res
+          })
+        }
+        break;
+      case 362:
+        {
+          this.setData({
+            result_362: res
+          })
+        }
+        break;
+      case 363:
+        {
+          this.setData({
+            result_363: res
+          })
+        }
+        break;
+      case 364:
+        {
+          this.setData({
+            result_364: res
+          })
+        }
+        break;
+      case 365:
+        {
+          this.setData({
+            result_365: res
+          })
+        }
+        break;
+      case 366:
+        {
+          this.setData({
+            result_366: res
+          })
+        }
+        break;
+      case 367:
+        {
+          this.setData({
+            result_367: res
+          })
+        }
+        break;
+      case 368:
+        {
+          this.setData({
+            result_368: res
+          })
+        }
+        break;
+      case 369:
+        {
+          this.setData({
+            result_369: res
+          })
+        }
+        break;
+      case 370:
+        {
+          this.setData({
+            result_370: res
+          })
+        }
+        break;
+      case 371:
+        {
+          this.setData({
+            result_371: res
+          })
+        }
+        break;
+      case 372:
+        {
+          this.setData({
+            result_372: res
+          })
+        }
+        break;
+      case 373:
+        {
+          this.setData({
+            result_373: res
+          })
+        }
+        break;
+      case 374:
+        {
+          this.setData({
+            result_374: res
+          })
+        }
+        break;
+      case 375:
+        {
+          this.setData({
+            result_375: res
+          })
+        }
+        break;
+      case 376:
+        {
+          this.setData({
+            result_376: res
+          })
+        }
+        break;
+      case 377:
+        {
+          this.setData({
+            result_377: res
+          })
+        }
+        break;
+      case 378:
+        {
+          this.setData({
+            result_378: res
+          })
+        }
+        break;
+      case 379:
+        {
+          this.setData({
+            result_379: res
+          })
+        }
+        break;
+      case 380:
+        {
+          this.setData({
+            result_380: res
+          })
+        }
+        break;
+      case 381:
+        {
+          this.setData({
+            result_381: res
+          })
+        }
+        break;
+      case 382:
+        {
+          this.setData({
+            result_382: res
+          })
+        }
+        break;
+      case 383:
+        {
+          this.setData({
+            result_383: res
+          })
+        }
+        break;
+      case 384:
+        {
+          this.setData({
+            result_384: res
+          })
+        }
+        break;
+      case 385:
+        {
+          this.setData({
+            result_385: res
+          })
+        }
+        break;
+      case 386:
+        {
+          this.setData({
+            result_386: res
+          })
+        }
+        break;
+      case 387:
+        {
+          this.setData({
+            result_387: res
+          })
+        }
+        break;
+      case 388:
+        {
+          this.setData({
+            result_388: res
+          })
+        }
+        break;
+      case 389:
+        {
+          this.setData({
+            result_389: res
+          })
+        }
+        break;
+      case 390:
+        {
+          this.setData({
+            result_390: res
+          })
+        }
+        break;
+      case 391:
+        {
+          this.setData({
+            result_391: res
+          })
+        }
+        break;
+      case 392:
+        {
+          this.setData({
+            result_392: res
+          })
+        }
+        break;
+      case 393:
+        {
+          this.setData({
+            result_393: res
+          })
+        }
+        break;
+      case 394:
+        {
+          this.setData({
+            result_394: res
+          })
+        }
+        break;
+      case 395:
+        {
+          this.setData({
+            result_395: res
+          })
+        }
+        break;
+      case 396:
+        {
+          this.setData({
+            result_396: res
+          })
+        }
+        break;
+      case 397:
+        {
+          this.setData({
+            result_397: res
+          })
+        }
+        break;
+      case 398:
+        {
+          this.setData({
+            result_398: res
+          })
+        }
+        break;
+      case 399:
+        {
+          this.setData({
+            result_399: res
+          })
+        }
+        break;
+      case 400:
+        {
+          this.setData({
+            result_400: res
+          })
+        }
+        break;
+      case 401:
+        {
+          this.setData({
+            result_401: res
+          })
+        }
+        break;
+      case 402:
+        {
+          this.setData({
+            result_402: res
+          })
+        }
+        break;
+      case 403:
+        {
+          this.setData({
+            result_403: res
+          })
+        }
+        break;
+      case 404:
+        {
+          this.setData({
+            result_404: res
+          })
+        }
+        break;
+      case 405:
+        {
+          this.setData({
+            result_405: res
+          })
+        }
+        break;
+      case 406:
+        {
+          this.setData({
+            result_406: res
+          })
+        }
+        break;
+      case 407:
+        {
+          this.setData({
+            result_407: res
+          })
+        }
+        break;
+      case 408:
+        {
+          this.setData({
+            result_408: res
+          })
+        }
+        break;
+      case 409:
+        {
+          this.setData({
+            result_409: res
+          })
+        }
+        break;
+      case 410:
+        {
+          this.setData({
+            result_410: res
+          })
+        }
+        break;
+      case 411:
+        {
+          this.setData({
+            result_411: res
+          })
+        }
+        break;
+      case 412:
+        {
+          this.setData({
+            result_412: res
+          })
+        }
+        break;
+      case 413:
+        {
+          this.setData({
+            result_413: res
+          })
+        }
+        break;
+      case 414:
+        {
+          this.setData({
+            result_414: res
+          })
+        }
+        break;
+      case 415:
+        {
+          this.setData({
+            result_415: res
+          })
+        }
+        break;
+      case 416:
+        {
+          this.setData({
+            result_416: res
+          })
+        }
+        break;
+      case 417:
+        {
+          this.setData({
+            result_417: res
+          })
+        }
+        break;
+      case 418:
+        {
+          this.setData({
+            result_418: res
+          })
+        }
+        break;
+      case 419:
+        {
+          this.setData({
+            result_419: res
+          })
+        }
+        break;
+      case 420:
+        {
+          this.setData({
+            result_420: res
+          })
+        }
+        break;
+      case 421:
+        {
+          this.setData({
+            result_421: res
+          })
+        }
+        break;
+      case 422:
+        {
+          this.setData({
+            result_422: res
+          })
+        }
+        break;
+      case 423:
+        {
+          this.setData({
+            result_423: res
+          })
+        }
+        break;
+      case 424:
+        {
+          this.setData({
+            result_424: res
+          })
+        }
+        break;
+      case 425:
+        {
+          this.setData({
+            result_425: res
+          })
+        }
+        break;
+      case 426:
+        {
+          this.setData({
+            result_426: res
+          })
+        }
+        break;
+      case 427:
+        {
+          this.setData({
+            result_427: res
+          })
+        }
+        break;
+      case 428:
+        {
+          this.setData({
+            result_428: res
+          })
+        }
+        break;
+      case 429:
+        {
+          this.setData({
+            result_429: res
+          })
+        }
+        break;
+      case 430:
+        {
+          this.setData({
+            result_430: res
+          })
+        }
+        break;
+      case 431:
+        {
+          this.setData({
+            result_431: res
+          })
+        }
+        break;
+      case 432:
+        {
+          this.setData({
+            result_432: res
+          })
+        }
+        break;
+      case 433:
+        {
+          this.setData({
+            result_433: res
+          })
+        }
+        break;
+      case 434:
+        {
+          this.setData({
+            result_434: res
+          })
+        }
+        break;
+      case 435:
+        {
+          this.setData({
+            result_435: res
+          })
+        }
+        break;
+      case 436:
+        {
+          this.setData({
+            result_436: res
+          })
+        }
+        break;
+      case 437:
+        {
+          this.setData({
+            result_437: res
+          })
+        }
+        break;
+      case 438:
+        {
+          this.setData({
+            result_438: res
+          })
+        }
+        break;
+      case 439:
+        {
+          this.setData({
+            result_439: res
+          })
+        }
+        break;
+      case 440:
+        {
+          this.setData({
+            result_440: res
+          })
+        }
+        break;
+      case 441:
+        {
+          this.setData({
+            result_441: res
+          })
+        }
+        break;
+      case 442:
+        {
+          this.setData({
+            result_442: res
+          })
+        }
+        break;
+      case 443:
+        {
+          this.setData({
+            result_443: res
+          })
+        }
+        break;
+      case 444:
+        {
+          this.setData({
+            result_444: res
+          })
+        }
+        break;
+      case 445:
+        {
+          this.setData({
+            result_445: res
+          })
+        }
+        break;
+      case 446:
+        {
+          this.setData({
+            result_446: res
+          })
+        }
+        break;
+      case 447:
+        {
+          this.setData({
+            result_447: res
+          })
+        }
+        break;
+      case 448:
+        {
+          this.setData({
+            result_448: res
+          })
+        }
+        break;
+      case 449:
+        {
+          this.setData({
+            result_449: res
+          })
+        }
+        break;
+      case 450:
+        {
+          this.setData({
+            result_450: res
+          })
+        }
+        break;
+      case 451:
+        {
+          this.setData({
+            result_451: res
+          })
+        }
+        break;
+      case 452:
+        {
+          this.setData({
+            result_452: res
+          })
+        }
+        break;
+      case 453:
+        {
+          this.setData({
+            result_453: res
+          })
+        }
+        break;
+      case 454:
+        {
+          this.setData({
+            result_454: res
+          })
+        }
+        break;
+      case 455:
+        {
+          this.setData({
+            result_455: res
+          })
+        }
+        break;
+      case 456:
+        {
+          this.setData({
+            result_456: res
+          })
+        }
+        break;
+      case 457:
+        {
+          this.setData({
+            result_457: res
+          })
+        }
+        break;
+      case 458:
+        {
+          this.setData({
+            result_458: res
+          })
+        }
+        break;
+      case 459:
+        {
+          this.setData({
+            result_459: res
+          })
+        }
+        break;
+      case 460:
+        {
+          this.setData({
+            result_460: res
+          })
+        }
+        break;
+      case 461:
+        {
+          this.setData({
+            result_461: res
+          })
+        }
+        break;
+      case 462:
+        {
+          this.setData({
+            result_462: res
+          })
+        }
+        break;
+      case 463:
+        {
+          this.setData({
+            result_463: res
+          })
+        }
+        break;
+      case 464:
+        {
+          this.setData({
+            result_464: res
+          })
+        }
+        break;
+      case 465:
+        {
+          this.setData({
+            result_465: res
+          })
+        }
+        break;
+      case 466:
+        {
+          this.setData({
+            result_466: res
+          })
+        }
+        break;
+      case 467:
+        {
+          this.setData({
+            result_467: res
+          })
+        }
+        break;
+      case 468:
+        {
+          this.setData({
+            result_468: res
+          })
+        }
+        break;
+      case 469:
+        {
+          this.setData({
+            result_469: res
+          })
+        }
+        break;
+      case 470:
+        {
+          this.setData({
+            result_470: res
+          })
+        }
+        break;
+      case 471:
+        {
+          this.setData({
+            result_471: res
+          })
+        }
+        break;
+      case 472:
+        {
+          this.setData({
+            result_472: res
+          })
+        }
+        break;
+      case 473:
+        {
+          this.setData({
+            result_473: res
+          })
+        }
+        break;
+      case 474:
+        {
+          this.setData({
+            result_474: res
+          })
+        }
+        break;
+      case 475:
+        {
+          this.setData({
+            result_475: res
+          })
+        }
+        break;
+      case 476:
+        {
+          this.setData({
+            result_476: res
+          })
+        }
+        break;
+      case 477:
+        {
+          this.setData({
+            result_477: res
+          })
+        }
+        break;
+      case 478:
+        {
+          this.setData({
+            result_478: res
+          })
+        }
+        break;
+      case 479:
+        {
+          this.setData({
+            result_479: res
+          })
+        }
+        break;
+      case 480:
+        {
+          this.setData({
+            result_480: res
+          })
+        }
+        break;
+      case 481:
+        {
+          this.setData({
+            result_481: res
+          })
+        }
+        break;
+      case 482:
+        {
+          this.setData({
+            result_482: res
+          })
+        }
+        break;
+      case 483:
+        {
+          this.setData({
+            result_483: res
+          })
+        }
+        break;
+      case 484:
+        {
+          this.setData({
+            result_484: res
+          })
+        }
+        break;
+      case 485:
+        {
+          this.setData({
+            result_485: res
+          })
+        }
+        break;
+      case 486:
+        {
+          this.setData({
+            result_486: res
+          })
+        }
+        break;
+      case 487:
+        {
+          this.setData({
+            result_487: res
+          })
+        }
+        break;
+      case 488:
+        {
+          this.setData({
+            result_488: res
+          })
+        }
+        break;
+      case 489:
+        {
+          this.setData({
+            result_489: res
+          })
+        }
+        break;
+      case 490:
+        {
+          this.setData({
+            result_490: res
+          })
+        }
+        break;
+      case 491:
+        {
+          this.setData({
+            result_491: res
+          })
+        }
+        break;
+      case 492:
+        {
+          this.setData({
+            result_492: res
+          })
+        }
+        break;
+      case 493:
+        {
+          this.setData({
+            result_493: res
+          })
+        }
+        break;
+      case 494:
+        {
+          this.setData({
+            result_494: res
+          })
+        }
+        break;
+      case 495:
+        {
+          this.setData({
+            result_495: res
+          })
+        }
+        break;
+      case 496:
+        {
+          this.setData({
+            result_496: res
+          })
+        }
+        break;
+      case 497:
+        {
+          this.setData({
+            result_497: res
+          })
+        }
+        break;
+      case 498:
+        {
+          this.setData({
+            result_498: res
+          })
+        }
+        break;
+      case 499:
+        {
+          this.setData({
+            result_499: res
+          })
+        }
+        break;
     }
   },
   select:function(){
@@ -2433,9 +4033,6 @@ Page({
     //
     // 1 如果日期和车次都不是 null
     if (this.data.dateVal != '' && this.data.noVal != '') {
-      console.log(this.data.noVal)
-      console.log(this.data.dateVal)
-      console.log(this.data.currentVal)
       wx.cloud.callFunction({
         name: 'getSelectWithDateWithNo',
         data: {
@@ -2556,7 +4153,6 @@ Page({
     this.setData({
       currentVal:this.data.currentVal + 1
     })
-    console.log(this.data.currentVal)
     this.select()
     wx.hideLoading()
   },
