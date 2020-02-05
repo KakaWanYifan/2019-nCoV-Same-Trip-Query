@@ -4127,12 +4127,14 @@ Page({
     })
     this.clearResult()
     var db = wx.cloud.database()
-    db.collection('update').where({
-      _id: 'update'
+    db.collection('show').where({
+      _id: 'show'
     }).get({
       success: res => {
         this.setData({
-          update: '更新时间：' + res.data[0].update
+          update: '更新时间：' + res.data[0].update,
+          dateTitleVal: res.data[0].dateTitleVal,
+          noTitleVal: res.data[0].noTitleVal
         })
       }
     })
