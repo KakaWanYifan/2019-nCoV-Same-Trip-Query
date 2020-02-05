@@ -11,12 +11,6 @@ Page({
     }
   },
   select:function(){
-    if (this.data.noVal == null) {
-      this.data.noVal = ''
-    }
-    if (this.data.dateVal == null) {
-      this.data.dateVal = ''
-    }
     //
     // 查询
     //
@@ -161,12 +155,34 @@ Page({
       date: e.detail.value,
       dateVal: e.detail.value
     })
-    this.select()
+    if (this.data.noVal == null) {
+      this.data.noVal = ''
+    }
+    if (this.data.dateVal == null) {
+      this.data.dateVal = ''
+    }
+    if (this.data.dateVal == '' && this.data.noVal == '') {
+
+    }
+    else {
+      this.select()
+    }
   },
   inputChange(e){
     this.setData({
       noVal : e.detail.value
     })
-    this.select()
+    if (this.data.noVal == null) {
+      this.data.noVal = ''
+    }
+    if (this.data.dateVal == null) {
+      this.data.dateVal = ''
+    }
+    if (this.data.dateVal == '' && this.data.noVal == '')
+    {
+
+    } else{
+      this.select()
+    }
   }
 })
