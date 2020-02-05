@@ -2,10 +2,7 @@
   <view class="page-hd-title">{{update}}</view>
   <view class="page-hd-line"></view>
   <view class="page-hd-desc">
-    <text>数据均由人工收集，并来源于可信的渠道
-      （包括但不限于官方媒体的公众号、微博等）\n
-      数据如有缺失或错误之处，还请及时反馈
-    </text>
+    数据如有缺失或错误之处，还请及时反馈
     <label bindtap="copyEmail" class="weui-agree__link">Wan_Yifan@foxmail.com</label>
   </view>
 </view>
