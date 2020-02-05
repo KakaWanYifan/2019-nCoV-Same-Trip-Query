@@ -1,5 +1,5 @@
 .page-hd{
-  padding: 10rpx 40rpx 20rpx 40rpx;
+  padding: 10rpx 0 20rpx 40rpx;
   text-align: left;
 }
 .page-hd-desc{
@@ -9,18 +9,15 @@
 }
 
 .page-hd-line{
-  margin: 0 auto;
-  width: 200rpx;
+  width: 350rpx;
   height: 2rpx;
   background-color: #D8D8D8;
-  margin-bottom: 10rpx
 }
 
 .page-hd-title{
-  padding: 0 40rpx 10rpx 40rpx;
   font-size: 30rpx;
   color: #BEBEBE;
-  text-align: center;
+  text-align: left;
 }
 
 .scroll-view{
