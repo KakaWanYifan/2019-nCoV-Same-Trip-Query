@@ -2428,9 +2428,6 @@ Page({
     }
   },
   select:function(){
-    wx.showLoading({
-      title: 'Loading',
-    })
     //
     // 查询
     //
@@ -2501,7 +2498,6 @@ Page({
         }
       })
     }
-    wx.hideLoading()
   },
   copyEmail() {
     wx.setClipboardData({
@@ -2529,6 +2525,9 @@ Page({
     })
   },
   onLoad:function(){
+    wx.showLoading({
+      title: 'Loading',
+    })
     this.clearResult()
     var db = wx.cloud.database()
     db.collection('update').where({
@@ -2548,15 +2547,23 @@ Page({
       }
     })
     this.select()
+    wx.hideLoading()
   },
   onReachBottom() {
+    wx.showLoading({
+      title: 'Loading',
+    })
     this.setData({
       currentVal:this.data.currentVal + 1
     })
     console.log(this.data.currentVal)
     this.select()
+    wx.hideLoading()
   },
   dateChange(e){
+    wx.showLoading({
+      title: 'Loading',
+    })
     this.clearResult()
     this.setData({
       date: e.detail.value,
@@ -2570,8 +2577,12 @@ Page({
       this.data.dateVal = ''
     }
     this.select()
+    wx.hideLoading()
   },
   inputChange(e){
+    wx.showLoading({
+      title: 'Loading',
+    })
     this.clearResult()
     this.setData({
       noVal : e.detail.value,
@@ -2584,5 +2595,6 @@ Page({
       this.data.dateVal = ''
     }
     this.select()
+    wx.hideLoading()
   }
 })
