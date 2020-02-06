@@ -5,4 +5,4 @@
 
 https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html
 
-[comment]: ![](./img/png.png)
+![](./img/png.png)
