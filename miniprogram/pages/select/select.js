@@ -4028,9 +4028,6 @@ Page({
     }
   },
   select:function(){
-    //
-    // 查询
-    //
     // 1 如果日期和车次都不是 null
     if (this.data.dateVal != '' && this.data.noVal != '') {
       wx.cloud.callFunction({
