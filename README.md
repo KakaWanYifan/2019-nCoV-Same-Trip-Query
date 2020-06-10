@@ -5,4 +5,4 @@
 
 https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html
 
-![](./img/png.png)
+![](http://wanyifan.cn/github/2019-nCoV-Same-Trip-Query.png)
